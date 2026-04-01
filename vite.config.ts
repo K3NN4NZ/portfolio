@@ -1,4 +1,5 @@
 import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
 import { wayfinder } from '@laravel/vite-plugin-wayfinder';
 import tailwindcss from '@tailwindcss/vite';
 import vue from '@vitejs/plugin-vue';
@@ -11,6 +12,8 @@ const hasPhp = () => {
 
     return !result.error && result.status === 0;
 };
+
+const canGenerateWayfinder = () => hasPhp() && existsSync('artisan') && existsSync('vendor/autoload.php');
 
 export default defineConfig({
     resolve: {
@@ -35,7 +38,7 @@ export default defineConfig({
         }),
         // The generated Wayfinder files are committed. Skip regeneration when PHP
         // is unavailable, such as Vercel's Node-only frontend builds.
-        ...(hasPhp()
+        ...(canGenerateWayfinder()
             ? [
                   wayfinder({
                       formVariants: true,
