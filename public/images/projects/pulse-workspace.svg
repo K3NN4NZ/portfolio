@@ -1,0 +1,19 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="36" fill="#121826"/>
+  <rect x="56" y="56" width="1088" height="728" rx="28" fill="#171F31"/>
+  <rect x="104" y="116" width="992" height="116" rx="24" fill="#202B3F"/>
+  <rect x="104" y="276" width="210" height="412" rx="24" fill="#202B3F"/>
+  <rect x="340" y="276" width="380" height="412" rx="24" fill="url(#paint0_linear_0_1)"/>
+  <rect x="746" y="276" width="350" height="194" rx="24" fill="#202B3F"/>
+  <rect x="746" y="494" width="350" height="194" rx="24" fill="#202B3F"/>
+  <path d="M410 572C444 532 486 498 536 498C589 498 620 550 666 550" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+  <path d="M412 610C454 574 516 560 588 560C624 560 650 566 668 574" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round"/>
+  <text x="104" y="742" fill="#E2E8F0" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700">Pulse Team Workspace</text>
+  <text x="104" y="96" fill="#C4B5FD" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.22em">INTERNAL PRODUCT</text>
+  <defs>
+    <linearGradient id="paint0_linear_0_1" x1="340" y1="276" x2="720" y2="688" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>

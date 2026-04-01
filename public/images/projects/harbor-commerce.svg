@@ -1,0 +1,19 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="36" fill="#08111F"/>
+  <rect x="56" y="56" width="1088" height="728" rx="28" fill="#0D1727"/>
+  <rect x="104" y="116" width="992" height="120" rx="24" fill="url(#paint0_linear_0_1)"/>
+  <rect x="104" y="276" width="292" height="360" rx="24" fill="#132033"/>
+  <rect x="422" y="276" width="292" height="360" rx="24" fill="#132033"/>
+  <rect x="740" y="276" width="356" height="360" rx="24" fill="#132033"/>
+  <circle cx="250" cy="394" r="76" fill="#F1F5F9"/>
+  <circle cx="568" cy="394" r="76" fill="#D6E4F0"/>
+  <circle cx="918" cy="420" r="92" fill="#C9D6E2"/>
+  <text x="104" y="740" fill="#E2E8F0" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700">Harbor Commerce Experience</text>
+  <text x="104" y="96" fill="#7DD3FC" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.22em">RESPONSIVE WEB</text>
+  <defs>
+    <linearGradient id="paint0_linear_0_1" x1="104" y1="116" x2="1096" y2="236" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#B36A47"/>
+    </linearGradient>
+  </defs>
+</svg>

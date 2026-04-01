@@ -1,0 +1,19 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="36" fill="#F7F1E9"/>
+  <rect x="58" y="58" width="1084" height="724" rx="28" fill="#FFFDF9"/>
+  <rect x="118" y="122" width="184" height="18" rx="9" fill="#D7CEC1"/>
+  <rect x="118" y="182" width="480" height="244" rx="26" fill="url(#paint0_linear_0_1)"/>
+  <rect x="628" y="182" width="454" height="74" rx="18" fill="#E9DFD4"/>
+  <rect x="628" y="280" width="390" height="22" rx="11" fill="#DCCBBB"/>
+  <rect x="628" y="322" width="430" height="22" rx="11" fill="#E7DACC"/>
+  <rect x="118" y="468" width="964" height="236" rx="26" fill="#FBF7F1"/>
+  <text x="118" y="104" fill="#8B776A" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.22em">BRAND PORTFOLIO</text>
+  <text x="118" y="570" fill="#1E293B" font-family="Fraunces, Georgia, serif" font-size="74" font-weight="700">Northstar Studio</text>
+  <text x="118" y="642" fill="#475569" font-family="Manrope, Arial, sans-serif" font-size="32" font-weight="500">Editorial layout, art direction, and premium case-study structure.</text>
+  <defs>
+    <linearGradient id="paint0_linear_0_1" x1="118" y1="182" x2="598" y2="426" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D9C8B3"/>
+      <stop offset="1" stop-color="#B36A47"/>
+    </linearGradient>
+  </defs>
+</svg>

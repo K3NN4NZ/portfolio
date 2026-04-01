@@ -1,0 +1,21 @@
+<svg width="1200" height="840" viewBox="0 0 1200 840" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="840" rx="36" fill="#0F172A"/>
+  <rect x="56" y="56" width="1088" height="728" rx="28" fill="#121C31"/>
+  <rect x="104" y="116" width="232" height="28" rx="14" fill="#334155"/>
+  <rect x="104" y="176" width="992" height="220" rx="24" fill="url(#paint0_linear_0_1)"/>
+  <rect x="104" y="436" width="316" height="252" rx="24" fill="#182338"/>
+  <rect x="442" y="436" width="316" height="252" rx="24" fill="#182338"/>
+  <rect x="780" y="436" width="316" height="252" rx="24" fill="#182338"/>
+  <path d="M160 320C226.667 254.667 293.333 222 360 222C438.5 222 477.333 308 552 308C625.333 308 680 222 768 222C826.667 222 892 262 964 342" stroke="#F8FAFC" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="360" cy="222" r="20" fill="#F8FAFC"/>
+  <circle cx="552" cy="308" r="20" fill="#F8FAFC"/>
+  <circle cx="768" cy="222" r="20" fill="#F8FAFC"/>
+  <text x="104" y="744" fill="#E2E8F0" font-family="Manrope, Arial, sans-serif" font-size="44" font-weight="700">Atlas Finance Dashboard</text>
+  <text x="104" y="96" fill="#94A3B8" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.22em">PRODUCT UI</text>
+  <defs>
+    <linearGradient id="paint0_linear_0_1" x1="104" y1="176" x2="1096" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B36A47"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+</svg>

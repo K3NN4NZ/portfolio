@@ -1,0 +1,6 @@
+Replace this placeholder with your real CV or resume PDF.
+
+Suggested next step:
+1. Put your actual file in `public/files/`.
+2. Update `secondaryCta.href` in `resources/js/data/portfolio.ts`.
+3. Keep the filename professional, for example: `your-name-cv.pdf`.
