@@ -1,9 +1,16 @@
+import { spawnSync } from 'node:child_process';
 import { wayfinder } from '@laravel/vite-plugin-wayfinder';
 import tailwindcss from '@tailwindcss/vite';
 import vue from '@vitejs/plugin-vue';
 import laravel from 'laravel-vite-plugin';
 import { fileURLToPath, URL } from 'node:url';
 import { defineConfig } from 'vite';
+
+const hasPhp = () => {
+    const result = spawnSync('php', ['-v'], { stdio: 'ignore' });
+
+    return !result.error && result.status === 0;
+};
 
 export default defineConfig({
     resolve: {
@@ -26,8 +33,14 @@ export default defineConfig({
                 },
             },
         }),
-        wayfinder({
-            formVariants: true,
-        }),
+        // The generated Wayfinder files are committed. Skip regeneration when PHP
+        // is unavailable, such as Vercel's Node-only frontend builds.
+        ...(hasPhp()
+            ? [
+                  wayfinder({
+                      formVariants: true,
+                  }),
+              ]
+            : []),
     ],
 });
